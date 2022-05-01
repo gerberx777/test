@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+body {
+    background: #E5E5E5;
+    margin-top: 0%;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+
+.top {
+    display: flex;
+    position: relative;
+    margin: auto;
+    width: 1219px;
+    height: 84px;
+    background: #007765;
+}
+
+.logo {
+    padding: 20px 50px;
+}
+
+.link {
+    margin-top: 29px;
+    margin-left: 502px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+table,
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.h1 {
+    margin: auto;
+    width: 1219px;
+    height: 403px;
+    background-image: url(../img/image.png);
+    font-weight: 500;
+    font-size: 72px;
+    text-align: center;
+    line-height: 403px;
+    color: white;
+}
+
+.h2 {
+    background: #EEEEEE;
+    margin: auto;
+    width: 1219px;
+    height: 719px;
+}
+
+.h21 {
+    text-align: center;
+    font-weight: 500, Medium;
+    font-size: 64px;
+    padding: 48px;
+    padding-bottom: 0px;
+    color: #007765;
+}
+
+.h22 {
+    padding: 16px 54px 55px;
+    font-weight: 400, Regular;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.hero {
+    background: #EEEEEE;
+    margin: auto;
+    width: 1219px;
+    height: 483px;
+}
+
+.h3 {
+    background: #FFFFFF;
+    margin: auto;
+    width: 1219px;
+    height: 483px;
+}
+
+.h31 {
+    padding: 18px 54px 55px;
+    padding-bottom: 10px;
+    font-weight: 400, Regular;
+    font-size: 64px;
+    line-height: 75px;
+    color: #007765;
+    text-align: center;
+}
+
+.h32 {
+    display: flex;
+    justify-content: center;
+}
+
+.h321 {
+    margin-left: 48px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 1219px;
+    height: 845px;
+    background: #EEEEEE;
+}
+
+.t {
+    width: 100%;
+    height: auto;
+    padding-top: 48px;
+    padding-bottom: 56px;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    color: #007765;
+    text-align: center;
+}
+
+.t1 {
+    width: 33.3%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #007765;
+}
+
+.t1>p+p {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.bottom {
+    width: 1219px;
+    height: 176px;
+    margin: auto;
+    background: #333333;
+    color: white;
+    text-align: center;
+    padding-top: 48px;
+}
